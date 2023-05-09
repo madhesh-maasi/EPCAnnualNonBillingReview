@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "annual-non-billing-review-client-side-solution",
+    "id": "3414def1-2902-4acc-9565-368739ef2f27",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "annual-non-billing-review description"
+      },
+      "longDescription": {
+        "default": "annual-non-billing-review description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "annual-non-billing-review Feature",
+        "description": "The feature that activates elements of the annual-non-billing-review solution.",
+        "id": "8da5fe61-b6ee-4c4f-9793-99e1f03c4fa8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/annual-non-billing-review.sppkg"
+  }
+}
